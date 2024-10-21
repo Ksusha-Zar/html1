@@ -1,0 +1,60 @@
+@font-face {
+    font-family: theater ;
+    src: url(/font/Theater_Bold.otf);
+}
+@font-face {
+    font-family: coffee ;
+    src: url(/font/Coffee\ Bear.otf);
+}
+.main{
+    width: 850px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background: linear-gradient(#DCDCDC, #708090);
+    height: 304px;
+}
+.header-text{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: coffee;
+    font-size: 5rem;
+    text-shadow: 1px 1px 2px #000080;
+}
+.container{
+    display: flex;
+}
+.content{
+    padding: 0 20px;
+    width: 500px;
+    flex-grow: 1;
+}
+.left{
+    float: left;
+    padding-right: 10px;
+}
+.right{
+    float: right;
+    padding-left: 10px;
+}
+h2{
+    font-family: theater;
+    font-size: 2rem;
+}
+aside{
+    background:#98a3af;
+    align-self: start;
+    font-family: theater;
+    padding: 0 5px;
+}
+aside ul{
+    list-style-type: none ;
+    padding-left: 0;
+}
+.ad, .nav{
+    width: 150px;
+}
+
